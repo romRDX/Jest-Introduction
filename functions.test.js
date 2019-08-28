@@ -1,5 +1,6 @@
 const functions = require('./functions');
 
+/*
 const initTests = () => console.log('Initializing test...')
 const finishTests = () => console.log('finishing test...')
 
@@ -71,24 +72,4 @@ test("Admin should be in usernames", ()=>{
 
     expect(usernames).toContain('Admin');
 });
-
-//async data
-// test('User fetched name should be Leanner Graham', ()=>{
-//     // expect.assertions(1);
-//     functions.fetchUser()
-//         .then(data => {
-//             expect(data.name).toEqual('Leanne Graham');
-//         })
-// });
-
-
-test('reverseString functions exists', ()=>{
-    expect(functions.reverseString).toBeDefined();
-});
-
-test('String reverses', ()=>{
-    expect(functions.reverseString('hello')).toEqual('olleh');
-});
-
-// watch in package.json
-// "testwatch": "jest --watchAll"
+*/
